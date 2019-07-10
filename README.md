@@ -18,7 +18,7 @@ Gradient descent is a method to move from the point of the loss function to anot
 
 The word "descent" means going downhill. In 2-dimensions, if the slope goes upper-right direction then we need to move to the smaller left direction and vice versa. The "gradient" means the slope. By considering the "U" shape of the graph as a loss function, we can see that to find the smallest point quicker, we need to move more when the slope is steeper. 
 
-![GD3](https://user-images.githubusercontent.com/52673999/61004879-da865200-a35e-11e9-81df-466d7052ba8f.jpg)
+![GD4](https://user-images.githubusercontent.com/52673999/61007703-6a2eff00-a365-11e9-8fa3-46098d4086a2.jpg)
 
 
 In plain vanilla gradient descent, we move opposite to the direction of the slope and the step size is multiplied by the gradient(slope). Because it only uses the information of the current spot, it is easy to fall into a local minimum. So the initial point is important.
