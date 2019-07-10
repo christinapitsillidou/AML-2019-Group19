@@ -25,6 +25,7 @@ The "gradient" means the slope. By considering the "U" shape of the graph as a l
 Finally, we need to consider the step size. If it is too small, then a lot of time is needed to find the minimum and if it is too big, then we could completely miss it(See figure3).
 
 ![GD2](https://user-images.githubusercontent.com/52673999/60999676-a5283700-a353-11e9-9612-2a251de8f012.jpg)
+![vanilla](https://user-images.githubusercontent.com/52673999/61002684-f89d8380-a359-11e9-8deb-491e364c4b89.jpg)
 
 ## Two modifications to plain vanilla gradient descent
 
