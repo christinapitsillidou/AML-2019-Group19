@@ -28,6 +28,8 @@ In plain vanilla gradient descent, we move opposite to the direction of the slop
 
 Finally, we need to consider the step size. If it is too small, then a lot of time is needed to find the minimum and if it is too big, then we could completely miss it.
 
+![stepsize png](https://user-images.githubusercontent.com/52673999/61003382-b7a66e80-a35b-11e9-9f6a-c006772f7aa8.jpg)
+
 
 ## Two modifications to plain vanilla gradient descent
 
