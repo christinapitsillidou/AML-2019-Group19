@@ -31,7 +31,7 @@ Finally, we need to consider the step size. If it is too small, then a lot of ti
 ![stepsize8](https://user-images.githubusercontent.com/52673999/61007513-e83ed600-a364-11e9-9036-bed53afe0a01.jpg)
 
 
-## Two modifications to plain vanilla gradient descent
+## Two variants of gradient descent
 
 
 
