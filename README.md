@@ -18,17 +18,17 @@ Gradient descent is a method to move from the point of the loss function to anot
 
 The word "descent" means going downhill. In 2-dimensions, if the slope goes upper-right direction then we need to move to the smaller left direction and vice versa. The "gradient" means the slope. By considering the "U" shape of the graph as a loss function, we can see that to find the smallest point quicker, we need to move more when the slope is steeper. 
 
-![GD2](https://user-images.githubusercontent.com/52673999/60999676-a5283700-a353-11e9-9612-2a251de8f012.jpg)
+![GD3](https://user-images.githubusercontent.com/52673999/61004879-da865200-a35e-11e9-81df-466d7052ba8f.jpg)
 
 
 In plain vanilla gradient descent, we move opposite to the direction of the slope and the step size is multiplied by the gradient(slope). Because it only uses the information of the current spot, it is easy to fall into a local minimum. So the initial point is important.
 
-![vanilla](https://user-images.githubusercontent.com/52673999/61002684-f89d8380-a359-11e9-8deb-491e364c4b89.jpg)
+![vanilla2](https://user-images.githubusercontent.com/52673999/61004906-ee31b880-a35e-11e9-90f3-6b05db7d64e1.jpg)
 
 
 Finally, we need to consider the step size. If it is too small, then a lot of time is needed to find the minimum and if it is too big, then we could completely miss it.
 
-![stepsize5](https://user-images.githubusercontent.com/52673999/61004578-2f759880-a35e-11e9-8998-ba54bab85854.jpg)
+![stepsize6](https://user-images.githubusercontent.com/52673999/61004929-fc7fd480-a35e-11e9-935f-2c49febe5bc6.jpg)
 
 
 ## Two modifications to plain vanilla gradient descent
