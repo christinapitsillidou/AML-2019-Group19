@@ -1,4 +1,7 @@
-# Part 1: Gradient Descent
+# AML_2019 Coursework, Part 1, Group 19
+Experiments with Gradient Descent
+---
+
 ## Why is gradient descent important in machine learning?
 
 The purpose of machine learning is to find a function that makes the best predictions. In order to determine that, the computer needs to compare numbers to see which function’s predictions are closer to the real values.
@@ -24,3 +27,11 @@ Finally, we need to consider the step size. If it is too small, then a lot of ti
 
 
 ## Two modifications to plain vanilla gradient descent
+
+
+
+| Parameter      | Explanation |
+|----------------|-------------|
+|`A`             | x           |
+|`B`             | y           |
+|`C`             | z           |
