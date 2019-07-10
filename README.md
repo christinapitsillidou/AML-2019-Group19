@@ -1,4 +1,3 @@
-# AML-2019-Group19
 # Part 1: Gradient Descent
 ## Why is gradient descent important in machine learning?
 
