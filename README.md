@@ -1,5 +1,6 @@
 # AML_2019 Coursework, Part 1, Group 19
 Experiments with Gradient Descent
+
 ---
 
 ## Why is gradient descent important in machine learning?
