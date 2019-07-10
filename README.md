@@ -1,5 +1,5 @@
 # AML_2019 Coursework, Part 1, Group 19
-Experiments with Gradient Descent
+# Experiments with Gradient Descent
 
 ---
 
