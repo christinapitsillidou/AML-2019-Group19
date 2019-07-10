@@ -4,13 +4,12 @@
 
 ## Why is gradient descent important in machine learning?
 
-The purpose of machine learning is to find a function that makes the best predictions. In order to determine that, the computer needs to compare numbers to see which function’s predictions are closer to the real values.
 
-
-Let's consider finding the optimal prediction model as a shooting game. The shoot which has the shortest distance from the target will be the best shoot. In machine learning, we call the function of the distance a "loss function".
+The purpose of machine learning is to find a function that makes the best predictions. In order to determine that, the computer needs to find the function which makes the predictions with the smallest distance to the real values. In machine learning, we call the function of the distance a "loss function".
 
 
 Minimizing this loss function can be complicated, especially for computationally complex functions or when the whole picture of the function is not known. Trying every combination of variables to find the smallest result of the loss function could be the best way but it is very slow.
+
 
 ## How does plain vanilla gradient descent work?
 
