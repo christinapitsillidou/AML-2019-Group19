@@ -33,10 +33,10 @@ Finally, we need to consider the step size. If it is too small, then a lot of ti
 
 ## Two variants of gradient descent
 
+One of the problems of the gradient descent is the long running time because it calculates all possibility of the slope and finds the optimal next step. So, we use stochastic gradient descent. It chooses a smaller set of data randomly and find the next step. Therefore, sometimes it cannot find the best solution but it can go nearby. However, the direction and step size of the next step is still a problem for the method.
 
 
-| Parameter      | Explanation |
-|----------------|-------------|
-|`A`             | x           |
-|`B`             | y           |
-|`C`             | z           |
+Momentum is the way of using previous information of the direction to find the next step. 
+
+
+Adam considered one more factor, step size, based on the momentum theory. 
