@@ -38,7 +38,7 @@ One of the problems of the gradient descent is the long running time because it 
 
 Momentum is the way of using previous information of the direction to find the next step. Therefore the result looks like more rounded than others like rolling a heavy ball. Adam considered one more factor, step size, based on the momentum theory. The step of Adam looks like rolling a light ball.
 
-![result1](https://user-images.githubusercontent.com/52673999/61085372-015c8b00-a428-11e9-9dee-22ccbc27b1d6.jpg)
+![result5](https://user-images.githubusercontent.com/52673999/61087907-d9bcf100-a42e-11e9-973d-fab814e0d898.jpg)
 
 
 From the starting point (1.5, 1.5), Momentum method does not have enough power to go through the small hill to find the global minimum. However, Adam find the global minimum because it also adjust stepsize. It thakes more stpes than other models but find the right minimum value.
