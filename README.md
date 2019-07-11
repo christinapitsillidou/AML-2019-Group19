@@ -36,7 +36,16 @@ Finally, we need to consider the step size. If it is too small, then a lot of ti
 One of the problems of the gradient descent is the long running time because it calculates all possibility of the slope and finds the optimal next step. So, we use stochastic gradient descent. It chooses a smaller set of data randomly and find the next step. Therefore, sometimes it cannot find the best solution but it can go nearby. However, the direction and step size of the next step is still a problem for the method.
 
 
-Momentum is the way of using previous information of the direction to find the next step. 
+Momentum is the way of using previous information of the direction to find the next step. Therefore the result looks like more rounded than others like rolling a heavy ball. Adam considered one more factor, step size, based on the momentum theory. The step of Adam looks like rolling a light ball.
+
+![result1](https://user-images.githubusercontent.com/52673999/61085372-015c8b00-a428-11e9-9dee-22ccbc27b1d6.jpg)
 
 
-Adam considered one more factor, step size, based on the momentum theory. 
+From the starting point (1.5, 1.5), Momentum method does not have enough power to go through the small hill to find the global minimum. However, Adam find the global minimum because it also adjust stepsize. It thakes more stpes than other models but find the right minimum value.
+
+![result2](https://user-images.githubusercontent.com/52673999/61085398-10433d80-a428-11e9-810d-4123ab4b0fed.jpg)
+
+
+From the starting point (2.25,1.5), Momentum method has enough power to go through the small hill to find the global minimum. Adam cannot find the global minimum because the initial point has steeper slope.
+
+![result3](https://user-images.githubusercontent.com/52673999/61085430-294bee80-a428-11e9-9954-0ff8bc29ae32.jpg)
