@@ -33,19 +33,19 @@ Finally, we need to consider the step size. If it is too small, then a lot of ti
 
 ## Two variants of gradient descent
 
-One of the problems of the gradient descent is the long running time because it calculates all possibility of the slope and finds the optimal next step. So, we use stochastic gradient descent. It chooses a smaller set of data randomly and find the next step. Therefore, sometimes it cannot find the best solution but it can go nearby. However, the direction and step size of the next step is still a problem for the method.
+One of the problems of gradient descent is that it takes a long time to find a solution as it calculates all the possibilities for the slope in order to find the optimal next step. For Plain Vanilla, the direction and step size of the next step are problems that could be improved.
 
 
-Momentum is the way of using previous information of the direction to find the next step. Therefore the result looks like more rounded than others like rolling a heavy ball. Adam considered one more factor, step size, based on the momentum theory. The step of Adam looks like rolling a light ball.
+Momentum is the way of using previous information of the direction to find the next step. Therefore, the result looks more rounded than others like rolling a heavy ball. ADAM considers one more factor, step size, based on momentum theory. The step of ADAM looks like rolling a light ball.
 
 ![result6](https://user-images.githubusercontent.com/52673999/61088000-18eb4200-a42f-11e9-8aee-936078a73051.jpg)
 
 
-From the starting point (1.5, 1.5), Momentum method does not have enough power to go through the small hill to find the global minimum. However, Adam find the global minimum because it also adjust stepsize. It thakes more stpes than other models but find the right minimum value.
+From the starting point (1.5, 1.5), Momentum method does not have enough power to go through the small hill to find the global minimum. However, ADAM can find the global minimum because it also adjusts its step size. It takes more steps than other models but finds the right global minimum value.
 
 ![result2](https://user-images.githubusercontent.com/52673999/61085398-10433d80-a428-11e9-810d-4123ab4b0fed.jpg)
 
 
-From the starting point (2.25,1.5), Momentum method has enough power to go through the small hill to find the global minimum. Adam cannot find the global minimum because the initial point has steeper slope.
+From the starting point (2.25,1.5), Momentum method has enough power to go through the small hill to find the global minimum. ADAM cannot find the global minimum because the initial point has steeper slope.
 
 ![result3](https://user-images.githubusercontent.com/52673999/61085430-294bee80-a428-11e9-9954-0ff8bc29ae32.jpg)
